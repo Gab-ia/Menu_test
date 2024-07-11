@@ -17,6 +17,10 @@ h6 {
     font-family: 'Nunito', sans-serif;
 }
 
+.text-align{
+    text-align: center;
+}
+
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -501,7 +505,24 @@ a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
+
+.icon_menu{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.icontxt{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 /*******************************/
 /********** Menu CSS ***********/
@@ -590,6 +611,11 @@ a:focus {
     left: 0;
     background: #719a0a;
 }
+
+.food h2{
+    text-align:right;
+}
+
 
 
 
