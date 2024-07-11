@@ -13,14 +13,14 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #454545;
+    color:#62959bff;
     font-family: 'Nunito', sans-serif;
 }
 
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color: #fbaf32;
+    color:#62959bff;
     transition: .3s;
 }
 
@@ -38,14 +38,14 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background: #fbaf32;
-    border: 2px solid #fbaf32;
+    background: #62959bff;
+    border: 2px solid #62959bff;
     border-radius: 5px;
     transition: .5s;
 }
 
 .btn.custom-btn:hover {
-    color: #fbaf32;
+    color: #62959bff;
     background: transparent;
 }
 
@@ -109,7 +109,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #fbaf32;
+    color: #62959bff;
     font-size: 45px;
     line-height: 0px;
     font-weight: 700;
@@ -118,16 +118,21 @@ a:focus {
     
 }
 
+.logoMP{
+    width: 90px;
+    height: auto;  
+}
+
 .navbar .navbar-brand span {
-    color: #719a0a;
+    color: #90a147ff;
 }
 
 .navbar .navbar-brand:hover {
-    color: #fbaf32;
+    color:#62959bff;
 }
 
 .navbar .navbar-brand:hover span {
-    color: #fbaf32;
+    color: #62959bff;
 }
 
 .navbar .navbar-brand img {
@@ -157,11 +162,11 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color: #62959bff;
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #fbaf32;
+        color:#62959bff;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -180,12 +185,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color: #62959bff;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #fbaf32;
+        color: #62959bff;
     }
 }
 
@@ -196,7 +201,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #fbaf32;
+        color: #62959bff;
     }
     
     .navbar .navbar-nav {
@@ -283,7 +288,7 @@ a:focus {
 }
 
 .carousel .carousel-text h1 span {
-    color: #fbaf32;
+    color:#62959bff;
 }
 
 .carousel .carousel-text p {
@@ -295,18 +300,18 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
     margin-left: 10px;
-    background: #719a0a;
-    border-color: #719a0a;
+    background:#90a147ff;
+    border-color:#90a147ff;
 }
 
 .carousel .carousel-btn .btn:last-child:hover {
-    color: #719a0a;
+    color:#90a147ff;
     background: transparent;
 }
 
 .carousel .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 @media (max-width: 991.98px) {
@@ -469,7 +474,6 @@ a:focus {
 /********* Booking CSS *********/
 /*******************************/
 .booking {
-    position: relative;
     width: 100%;
     margin-bottom: 45px;
     background: rgba(0, 0, 0, .04);
@@ -483,64 +487,9 @@ a:focus {
     margin-bottom: 30px;
 }
 
-.booking .booking-form {
-    padding: 60px 30px;
-    background: #fbaf32;
-}
-
-.booking .booking-form .control-group {
-    margin-bottom: 15px;
-}
-
-.booking .booking-form .input-group-text {
-    position: absolute;
-    padding: 0;
-    border: none;
-    background: none;
-    top: 15px;
-    right: 15px;
-    color: #ffffff;
-    font-size: 14px;
-}
-
-.booking .booking-form .form-control {
-    height: 45px;
-    font-size: 14px;
-    color: #ffffff;
-    padding: 0 15px;
-    border-radius: 5px !important;
-    border: 1px solid #ffffff;
-    background: transparent;
-}
-
-.booking .booking-form select.form-control {
-    padding: 0 10px;
-}
-
-.booking .booking-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-.booking .booking-form .form-control:-ms-input-placeholder,
-.booking .booking-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-}
-
-.booking .booking-form .input-group [data-toggle="datetimepicker"] {
-    cursor: default;
-}
-
-.booking .booking-form .btn.custom-btn {
-    width: 100%;
-    color: #fbaf32;
-    background: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.booking .booking-form .btn.custom-btn:hover {
-    color: #ffffff;
-    background: transparent;
+.img_about{
+    width:100%;
+    height: auto;
 }
 
 
