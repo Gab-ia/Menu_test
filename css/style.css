@@ -20,6 +20,10 @@ h6 {
 .text-align{
     text-align: center;
 }
+.text-align span {
+    color:#90a147ff;
+    font-weight: bold;
+}
 
 a {
     font-family: 'Nunito', sans-serif;
@@ -980,7 +984,7 @@ a:focus {
 .team {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 45px 0 45px 0;
 }
 
 .team .team-item {
@@ -1090,196 +1094,23 @@ a:focus {
 }
 
 
-/*******************************/
-/******* Testimonial CSS *******/
-/*******************************/
-.testimonial {
-    position: relative;
-    width: 100%;
-    padding: 90px 0;
-    margin: 45px 0;
-    background: rgba(0, 0, 0, .04);
-}
-
-.testimonial .testimonials-carousel {
-    position: relative;
-    width: calc(100% + 30px);
-    margin: 0 -15px;
-}
-
-.testimonial .testimonial-item {
-    position: relative;
-    margin: 15px;
-    padding: 30px;
+/**************************************************/
+/******* Bien plus qu'une simple livraison *******/
+/************************************************/
+.portrait_home{
     display: flex;
-    align-items: center;
+    flex-wrap: nowrap;
     justify-content: center;
-    flex-direction: column;
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .08);
-    transition: .3s;
-    overflow: hidden;
+    flex-direction: row;
 }
 
-.testimonial .testimonial-item:hover {
-    box-shadow: none;
+.portrait_home_item {
+    border-radius: 10000px;
+    width: 35%;
+    height:auto;
+    padding: 30px;
 }
-
-.testimonial .testimonial-img {
-    position: relative;
-    width: 100px;
-    border-radius: 100px;
-    margin-bottom: 20px;
-    overflow: hidden;
-}
-
-.testimonial .testimonial-img img {
-    width: 100%;
-    border-radius: 100px;
-}
-
-.testimonial .testimonial-item p {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.testimonial .testimonial-item h2 {
-    position: relative;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 2px;
-}
-
-.testimonial .testimonial-item h3 {
-    color: #999999;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 0;
-}
-
-.testimonial .owl-dots {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.testimonial .owl-dot {
-    display: inline-block;
-    margin: 0 5px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #fbaf32;
-}
-
-.testimonial .owl-dot.active {
-    background: #719a0a;
-}
-
-
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 0 0;
-}
-
-.blog .blog-item {
-    position: relative;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-    border-radius: 15px;
-    overflow: hidden;
-    z-index: 1;
-}
-
-.blog .blog-img img {
-    width: 100%;
-}
-
-.blog .blog-content {
-    position: relative;
-    width: calc(100% - 60px);
-    top: -60px;
-    left: 30px;
-    padding: 25px 30px 30px 30px;
-    background: #ffffff;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    border-radius: 15px;
-    z-index: 2;
-}
-
-.blog .blog-content h2.blog-title {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.blog .blog-meta {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
-.blog .blog-meta p {
-    margin: 0 10px 0 0;
-    font-size: 14px;
-    color: #999999;
-}
-
-.blog .blog-meta i {
-    color: #fbaf32;
-    margin-right: 5px;
-}
-
-.blog .blog-meta p:last-child {
-    margin: 0;
-}
-
-.blog .blog-text {
-    position: relative;
-}
-
-.blog .blog-text p {
-    margin-bottom: 10px;
-}
-
-.blog .blog-item a.btn {
-    margin-top: 10px;
-    padding: 5px 15px;
-}
-
-.blog .pagination .page-link {
-    color: #fbaf32;
-    border-radius: 5px;
-    border-color: #fbaf32;
-    margin: 0 2px;
-}
-
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
-    color: #ffffff;
-    background: #fbaf32;
-}
-
-.blog .pagination .disabled .page-link {
-    color: #999999;
-}
-
-@media(max-width: 575.98px){
-    .blog .blog-meta p {
-        flex: 50%;
-        font-size: 13px;
-        margin: 0 0 5px 0;
-    }
-}
-
-
+    
 /*******************************/
 /******* Single Post CSS *******/
 /*******************************/
@@ -1719,13 +1550,14 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    background: rgba(0, 0, 0, .04);
 }
 
 .contact .contact-information {
     min-height: 150px;
     margin: 0 0 30px 0;
     padding: 30px 15px 0 15px;
-    background: rgba(0, 0, 0, .04);
+    background: white;
 }
 
 .contact .contact-info {
@@ -1742,7 +1574,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #62959bff;
     border-radius: 50px;
 }
 
@@ -1762,7 +1594,7 @@ a:focus {
 .contact .contact-text h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #719a0a;
+    color: #90a147ff;
 }
 
 .contact .contact-text p {
@@ -1774,11 +1606,11 @@ a:focus {
 .contact .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #fbaf32;
+    color: #62959bff;
 }
 
 .contact .contact-social a:hover {
-    color: #719a0a;
+    color: #90a147ff;
 }
 
 .contact .contact-form iframe {
