@@ -19,6 +19,7 @@ h6 {
 
 .text-align{
     text-align: center;
+    align-items: center;
 }
 
 a {
@@ -60,7 +61,7 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    max-width: 100%;
 }
 
 .back-to-top {
@@ -509,6 +510,7 @@ a:focus {
 }
 
 .icon_menu{
+    max-width: 100%;
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -648,6 +650,7 @@ a:focus {
     z-index: 1;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translateX(-50%) translateY(-50%);
     box-sizing: content-box;
     display: block;
