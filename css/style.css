@@ -1003,6 +1003,20 @@ a:focus {
     
 }
 
+.text-top-right{
+display:flex;
+justify-content: flex-end;
+padding: 50px;
+color: white;
+}
+
+.text-top-left{
+    display:flex;
+    justify-content: flex-start;
+    padding: 50px;
+    color: white;
+}
+
 
 /**************************************************/
 /******* Bien plus qu'une simple livraison *******/
