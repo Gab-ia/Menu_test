@@ -1006,20 +1006,37 @@ a:focus {
     
 }
 
-.text-top-right{
+.text-top-right-1{
 display:flex;
 justify-content: flex-end;
-padding: 50px;
+padding: 50px 50px 0 0;
 color: white;
+font-size: 50px;
 }
 
-.text-top-left{
+.text-top-right-2{
+    display:flex;
+    justify-content: flex-end;
+    padding:0 50px;
+    color: white;
+    font-size: 35px;
+}
+
+.text-top-left-1{
     display:flex;
     justify-content: flex-start;
-    padding: 50px;
+    padding: 50px 0 0 50px;
     color: white;
+    font-size: 50px;
 }
 
+.text-top-left-2{
+    display:flex;
+    justify-content: flex-start;
+    padding:0 50px;
+    color: white;
+    font-size: 35px;
+}
 
 /**************************************************/
 /******* Bien plus qu'une simple livraison *******/
