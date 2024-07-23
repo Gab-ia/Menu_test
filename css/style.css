@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color:#62959bff;
+    color:#d66826ff;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -22,21 +22,21 @@ h6 {
     align-items: center;
 }
 .text-align span {
-    color:#90a147ff;
+    color:#2d698cff;
     font-weight: bold;
 }
 
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    color:#62959bff;
+    color:#d66826ff;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #719a0a;
+    color: #2d698cff;
     outline: none;
     text-decoration: none;
 }
@@ -47,14 +47,14 @@ a:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background: #62959bff;
-    border: 2px solid #62959bff;
+    background: #d66826ff;
+    border: 2px solid #d66826ff;
     border-radius: 5px;
     transition: .5s;
 }
 
 .btn.custom-btn:hover {
-    color: #62959bff;
+    color: #d66826ff;
     background: transparent;
 }
 
@@ -90,7 +90,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -118,7 +118,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #62959bff;
+    color: #d66826ff;
     font-size: 45px;
     line-height: 0px;
     font-weight: 700;
@@ -133,15 +133,15 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    color: #90a147ff;
+    color: #2d698cff;
 }
 
 .navbar .navbar-brand:hover {
-    color:#62959bff;
+    color:#d66826ff;
 }
 
 .navbar .navbar-brand:hover span {
-    color: #62959bff;
+    color: #d66826ff;
 }
 
 .navbar .navbar-brand img {
@@ -171,11 +171,11 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #62959bff;
+        color: #d66826ff;
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color:#62959bff;
+        color:#d66826ff;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -194,12 +194,12 @@ a:focus {
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #62959bff;
+        color: #d66826ff;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #62959bff;
+        color: #d66826ff;
     }
 }
 
@@ -210,7 +210,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #62959bff;
+        color: #d66826ff;
     }
     
     .navbar .navbar-nav {
@@ -297,7 +297,7 @@ a:focus {
 }
 
 .carousel .carousel-text h1 span {
-    color:#62959bff;
+    color:#d66826ff;
 }
 
 .carousel .carousel-text p {
@@ -309,12 +309,12 @@ a:focus {
 
 .carousel .carousel-btn .btn:last-child {
     margin-left: 10px;
-    background:#90a147ff;
-    border-color:#90a147ff;
+    background:#2d698cff;
+    border-color:#2d698cff;
 }
 
 .carousel .carousel-btn .btn:last-child:hover {
-    color:#90a147ff;
+    color:#2d698cff;
     background: transparent;
 }
 
@@ -444,7 +444,7 @@ a:focus {
 }
 
 .section-header p {
-    color: #719a0a;
+    color: #2d698cff;
     margin-bottom: 5px;
     position: relative;
     font-size: 20px;
@@ -568,7 +568,7 @@ a:focus {
 }
 
 .food .food-item:hover i {
-    color: #719a0a;
+    color: #2d698cff;
 }
 
 .food .food-item i::after {
@@ -586,7 +586,7 @@ a:focus {
 }
 
 .food .food-item:hover i::after {
-    border: 3px dotted #719a0a;
+    border: 3px dotted #2d698cff;
     border-right: transparent;
     border-bottom: transparent;
 }
@@ -615,7 +615,7 @@ a:focus {
 .food .food-item a:hover::after {
     width: 100%;
     left: 0;
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .food h2{
@@ -828,11 +828,11 @@ a:focus {
 .feature .feature-item i {
     position: relative;
     display: block;
-    color: #719a0a;
+    color: #2d698cff;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 15px;
-    background-image: linear-gradient(#719a0a, #fbaf32);
+    background-image: linear-gradient(#2d698cff, #fbaf32);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -882,7 +882,7 @@ a:focus {
 .menu .menu-tab .nav.nav-pills .nav-link:hover,
 .menu .menu-tab .nav.nav-pills .nav-link.active {
     color: #ffffff;
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .menu .menu-tab .tab-content {
@@ -1063,7 +1063,7 @@ font-size: 50px;
 }
 
 .vertlogo{
-    color:#90a147ff;
+    color:#2d698cff;
 }
 
 .flip-card {
@@ -1320,7 +1320,7 @@ font-size: 50px;
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
     color: #ffffff;
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .single .single-comment {
@@ -1478,7 +1478,7 @@ font-size: 50px;
 }
 
 .sidebar .search-widget .btn:hover {
-    color: #719a0a;
+    color: #2d698cff;
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -1498,7 +1498,7 @@ font-size: 50px;
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
     color: #ffffff;
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .sidebar .tab-post .tab-content {
@@ -1616,7 +1616,7 @@ font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #62959bff;
+    background: #d66826ff;
     border-radius: 50px;
 }
 
@@ -1636,7 +1636,7 @@ font-size: 50px;
 .contact .contact-text h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #90a147ff;
+    color: #2d698cff;
 }
 
 .contact .contact-text p {
@@ -1648,11 +1648,11 @@ font-size: 50px;
 .contact .contact-social a {
     margin-right: 10px;
     font-size: 18px;
-    color: #62959bff;
+    color: #d66826ff;
 }
 
 .contact .contact-social a:hover {
-    color: #90a147ff;
+    color: #2d698cff;
 }
 
 .contact .contact-form iframe {
@@ -1722,7 +1722,7 @@ font-size: 50px;
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .footer .footer-link a {
@@ -1772,7 +1772,7 @@ font-size: 50px;
 }
 
 .footer .footer-social a:hover {
-    background: #719a0a;
+    background: #2d698cff;
 }
 
 .footer .footer-social a:last-child {
@@ -1820,5 +1820,5 @@ font-size: 50px;
 }
 
 .footer .copyright p a:hover {
-    color: #719a0a;
+    color: #2d698cff;
 }
