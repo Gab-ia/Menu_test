@@ -21,9 +21,16 @@ h6 {
     text-align: center;
     align-items: center;
 }
+
+.text-justify {
+    text-align: justify;
+    align-items: center;
+}
+
 .text-align span {
     color:#2d698cff;
     font-weight: bold;
+    font-size: 25px;
 }
 
 a {
@@ -71,7 +78,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fbaf32;
+    background: #d66826ff;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -392,7 +399,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #fbaf32;
+    color: #d66826ff;
     font-size: 60px;
     font-weight: 700;
 }
@@ -417,7 +424,7 @@ a:focus {
     top: -1px;
     right: -7px;
     text-align: center;
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .page-header a:last-child::after {
@@ -560,7 +567,7 @@ a:focus {
 .food .food-item i {
     position: relative;
     display: inline-block;
-    color: #fbaf32;
+    color: #d66826ff;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
@@ -578,7 +585,7 @@ a:focus {
     height: calc(100% + 20px);
     top: -20px;
     left: -15px;
-    border: 3px dotted #fbaf32;
+    border: 3px dotted #d66826ff;
     border-right: transparent;
     border-bottom: transparent;
     border-radius: 100px;
@@ -608,7 +615,7 @@ a:focus {
     height: 1px;
     bottom: 0;
     left: calc(50% - 25px);
-    background: #fbaf32;
+    background: #d66826ff;
     transition: .3s;
 }
 
@@ -676,7 +683,7 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 50%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -691,7 +698,7 @@ a:focus {
     display: block;
     width: 100px;
     height: 100px;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -832,7 +839,7 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 15px;
-    background-image: linear-gradient(#2d698cff, #fbaf32);
+    background-image: linear-gradient(#2d698cff, #d66826ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -844,7 +851,7 @@ a:focus {
     height: 40px;
     top: -10px;
     left: 20px;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 30px;
     z-index: -1;
 }
@@ -874,7 +881,7 @@ a:focus {
 
 .menu .menu-tab .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 5px;
     margin: 0 5px;
 }
@@ -944,7 +951,7 @@ a:focus {
     display: inline-block;
     float: right;
     padding-left: 5px;
-    color: #fbaf32;
+    color: #d66826ff;
     background: #ffffff;
 }
 
@@ -1152,8 +1159,42 @@ font-size: 50px;
     padding: 50px;
 }
 
+.tripleBloc {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
-  /*******************************/
+.aboutBloc {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .04);
+    border-radius: 30px;
+}
+
+.imgAbout {
+    width: 80%;
+    border-radius: 30px;
+}
+.paddingTop {
+    padding-top: 30px;
+}
+
+.paddingBottom {
+    padding-bottom: 30px;
+}
+
+.pAboutFin {
+    display: flex;
+    color: #2d698cff;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*******************************/
 /******* Single Post CSS *******/
 /*******************************/
 .single {
@@ -1183,15 +1224,15 @@ font-size: 50px;
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #fbaf32;
+    color: #d66826ff;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .single-tags a:hover {
     color: #ffffff;
-    background: #fbaf32;
-    border-color: #fbaf32;
+    background: #d66826ff;
+    border-color: #d66826ff;
 }
 
 .single .single-bio {
@@ -1270,7 +1311,7 @@ font-size: 50px;
 }
 
 .single .post-item .post-text a:hover {
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .single .post-item .post-meta {
@@ -1312,7 +1353,7 @@ font-size: 50px;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background: #fbaf32;
+    background: #d66826ff;
     font-size: 16px;
     transition: .3s;
 }
@@ -1384,7 +1425,7 @@ font-size: 50px;
 }
 
 .single .comment-text .btn:hover {
-    background: #fbaf32;
+    background: #d66826ff;
 }
 
 .single .comment-form {
@@ -1446,7 +1487,7 @@ font-size: 50px;
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #fbaf32;
+    background: #d66826ff;
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -1470,7 +1511,7 @@ font-size: 50px;
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: #fbaf32;
+    color: #d66826ff;
     background: none;
     border-radius: 0;
     border: none;
@@ -1491,7 +1532,7 @@ font-size: 50px;
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: #ffffff;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 0;
 }
 
@@ -1538,7 +1579,7 @@ font-size: 50px;
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: #fbaf32;
+    color: #d66826ff;
     left: 1px;
 }
 
@@ -1558,15 +1599,15 @@ font-size: 50px;
     padding: 7px 15px;
     font-size: 14px;
     font-weight: 400;
-    color: #fbaf32;
+    color: #d66826ff;
     border: 1px solid #dddddd;
     border-radius: 5px;
 }
 
 .single .tag-widget a:hover {
     color: #ffffff;
-    background: #fbaf32;
-    border-color: #fbaf32;
+    background: #d66826ff;
+    border-color: #d66826ff;
 }
 
 .sidebar .image-widget {
@@ -1710,7 +1751,7 @@ font-size: 50px;
     padding-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .footer .footer-contact h2::after,
@@ -1738,17 +1779,17 @@ font-size: 50px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 10px;
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .footer .footer-link a:hover {
-    color: #fbaf32;
+    color: #d66826ff;
     letter-spacing: 1px;
 }
 
 .footer .footer-contact p i {
     width: 25px;
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .footer .footer-social {
@@ -1765,7 +1806,7 @@ font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #d66826ff;
     border-radius: 35px;
     font-size: 16px;
     color: #ffffff;
@@ -1787,7 +1828,7 @@ font-size: 50px;
 .footer .footer-newsletter input {
     height: 60px;
     background: transparent;
-    border: 1px solid #fbaf32;
+    border: 1px solid #d66826ff;
     border-radius: 5px;
 }
 
@@ -1816,7 +1857,7 @@ font-size: 50px;
 }
 
 .footer .copyright p a {
-    color: #fbaf32;
+    color: #d66826ff;
 }
 
 .footer .copyright p a:hover {
