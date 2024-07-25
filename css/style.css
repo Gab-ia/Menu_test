@@ -40,6 +40,10 @@ h6 {
     font-size: 25px;
 }
 
+.green {
+    color: #299740ff;
+}
+
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -413,7 +417,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(41, 151, 65, 0.68), rgba(45, 105, 140, 0.686)), url();
+    background: linear-gradient(rgba(41, 151, 65, 0.68), rgba(0, 0, 0, 0.04)), url();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1057,7 +1061,12 @@ font-size: 50px;
 .socialNav {
     width: 20px;
     padding: 0 20px;
+    color: #299740ff;
 
+}
+
+.ic {
+    color: #2d698cff;
 }
 
 /*******************************/
