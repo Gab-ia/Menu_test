@@ -121,6 +121,8 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
+    display: flex;
+    
 }
 
 .navbar.nav-sticky {
@@ -142,8 +144,9 @@ a:focus {
 }
 
 .logoMP{
-    width: 90px;
-    height: auto;  
+    width: 200px;
+    height: auto;
+    padding-right: 100px;  
 }
 
 .navbar .navbar-brand span {
@@ -168,6 +171,18 @@ a:focus {
     border: 0;
     border-radius: 0;
     background: #f8f9fa;
+}
+
+.displayNavbar {
+    display : flex;
+}
+
+.nav-item {
+    color: #2d698cff !important;
+}
+
+.nav-item:hover {
+    color: #d66826ff !important;
 }
 
 @media (min-width: 992px) {
@@ -203,7 +218,7 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #666666;
+        color: #2d698cff;
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
@@ -1008,101 +1023,41 @@ font-size: 50px;
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
-.contact {
+.contact-information {
+    background-color: #ffffff; 
+    padding: 20px; 
     position: relative;
+    z-index: 1000; 
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    font-size: 24px; 
+}
+
+.contact-text h3 {
+    margin-bottom: 10px; 
+}
+
+#contactBar {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    left: 0;
     width: 100%;
-    padding: 45px 0 15px 0;
-    background: rgba(0, 0, 0, .04);
+    background-color: #ffffff;
+    z-index: 1000;
+    padding: 20px;
 }
 
-.contact .contact-information {
-    min-height: 150px;
-    margin: 0 0 30px 0;
-    padding: 30px 15px 0 15px;
-    background: white;
-}
+.socialNav {
+    width: 20px;
+    padding: 0 20px;
 
-.contact .contact-info {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
 }
-
-.contact .contact-icon {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #d66826ff;
-    border-radius: 50px;
-}
-
-.contact .contact-icon i {
-    font-size: 18px;
-    color: #ffffff;
-}
-
-.contact .contact-text {
-    position: relative;
-    width: calc(100% - 50px);
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-}
-
-.contact .contact-text h3 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #2d698cff;
-}
-
-.contact .contact-text p {
-    margin: 0;
-    font-size: 16px;
-    color: #454545;
-}
-
-.contact .contact-social a {
-    margin-right: 10px;
-    font-size: 18px;
-    color: #d66826ff;
-}
-
-.contact .contact-social a:hover {
-    color: #2d698cff;
-}
-
-.contact .contact-form iframe {
-    width: 100%;
-    height: 380px;
-    border-radius: 15px;
-    margin-bottom: 25px;
-}
-
-.contact .contact-form input {
-    padding: 15px;
-    background: none;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, .1);
-}
-
-.contact .contact-form textarea {
-    height: 150px;
-    padding: 8px 15px;
-    background: none;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, .1);
-}
-
-.contact .help-block ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
 
 /*******************************/
 /********* Footer CSS **********/
@@ -1241,4 +1196,8 @@ font-size: 50px;
 
 .footer .copyright p a:hover {
     color: #2d698cff;
+}
+
+.socialFooter {
+    text-decoration: none;
 }

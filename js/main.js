@@ -54,25 +54,7 @@
         loop: true,
         nav : false
     });
-    
-    // Modal Video
-    $(document).ready(function () {
-        var $videoSrc;
-        $('.btn-play').click(function () {
-            $videoSrc = $(this).data("src");
-        });
-        console.log($videoSrc);
-
-        $('#videoModal').on('shown.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-        })
-
-        $('#videoModal').on('hide.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc);
-        })
-    });
-    
-    
+     
     // Date and time picker
     $('#date').datetimepicker({
         format: 'L'
@@ -127,6 +109,25 @@
             }
         }
     });
+
+
+    // Barre Contact dans la NavBar
+
+    $(document).ready(function() {
+        var isVisible = false;
+
+        $('#contactLink').click(function(event) {
+            event.preventDefault(); // Empêche le comportement par défaut du lien
+            
+            if (isVisible) {
+                $('#contactBar').slideUp();
+            } else {
+                $('#contactBar').slideDown();
+            }
+
+            isVisible = !isVisible;
+        });
+    });
+
     
 })(jQuery);
-
