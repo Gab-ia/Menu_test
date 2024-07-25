@@ -413,7 +413,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(41, 151, 65, 0.68), rgba(45, 105, 140, 0.686)), url();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -674,6 +674,7 @@ a:focus {
 /************************/
 .Aide1 {
     margin: 0 20px;
+    padding: 20px 0;
 }
 
 .Aide2 {
