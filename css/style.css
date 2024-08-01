@@ -943,10 +943,10 @@ font-size: 50px;
     color: black;
   }
   
-.catherine{background-image:url("../img/Portage/portraits/catherine.jpg");}
-.marc{background-image:url("../img/Portage/portraits/marc-cuisinier-couleur.jpg");}
-.sabrina1{ background-image:url("../img/Portage/portraits/Sabrina-DENET.jpg");}
-.sabrina2{ background-image:url("../img/Portage/portraits/Sabrina-DEGHAL.jpg");}
+.catherine{background-image:url("../img/portraits/catherine.jpg");}
+.marc{background-image:url("../img/portraits/marc-cuisinier-couleur.jpg");}
+.sabrina1{ background-image:url("../img/portraits/Sabrina-DENET.jpg");}
+.sabrina2{ background-image:url("../img/portraits/Sabrina-DEGHAL.jpg");}
 
 
   /* Style the back side */

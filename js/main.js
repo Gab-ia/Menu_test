@@ -117,7 +117,7 @@
         var isVisible = false;
 
         $('#contactLink').click(function(event) {
-            event.preventDefault(); // Empêche le comportement par défaut du lien
+            event.preventDefault();
             
             if (isVisible) {
                 $('#contactBar').slideUp();
