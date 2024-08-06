@@ -51,10 +51,10 @@
                         <p>Afin de vous garantir une parfaite sécurité alimentaire, tous nos plats livrés à domicile sont préparés et transportés en <b>liaison froide</b>.<br><br>
                         Concrètement, nos repas sont refroidis très rapidement dans une cellule dédiée, puis maintenus à une température inférieure ou égale à 3 °C.<br><br> Grâce à cette technique, le développement des bactéries est bloqué, tout en conservant les qualités gustatives et nutritionnelles des plats cuisinés.<br>
                         </p>
-                        <img src="img/photos triées/Nourriture/Commandes (2).jpg">
+                        <img src="img/photos triées/FB/tiramisu.svg">
                     </div>
                     <div class="para-about2">
-                        <img src="img/photos triées/Nourriture/Commandes (3).jpg">
+                        <img src="img/photos triées/FB/pamplemousse.svg">
                         <div><p>Nos repas sont ensuite transportés sous température dirigée dans des <b>camionnettes frigorifiques</b> régulièrement contrôlées et qui respectent la norme FRAX :<br>
                             <ul>
                                 <li>« F » pour <b>F</b>rigorifique.</li>
@@ -84,7 +84,7 @@
             </div>
 
             <div class=" text-align">
-               <img src="img/photos triées/Nourriture/Mise en barquetets.jpg" class="imgAbout">
+               <img src="img/photos triées/FB/prepa3.svg" class="imgAbout">
             </div>
 
             <div class="aboutBloc col-lg-4">
@@ -97,7 +97,7 @@
         
         <div class="tripleBloc paddingBottom">
             <div class="text-align">
-               <img src="img/photos triées/FB/prepa1.jpg" class="imgAbout">
+               <img src="img/photos triées/FB/prepa1.svg" class="imgAbout">
             </div>
 
             <div class="aboutBloc col-lg-4">
@@ -111,7 +111,7 @@
             </div>
 
             <div class=" text-align">
-               <img src="img/photos triées/FB/prepa2.jpg" class="imgAbout">
+               <img src="img/photos triées/FB/prepa2.svg" class="imgAbout">
             </div>
 
         </div>    

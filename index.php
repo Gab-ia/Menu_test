@@ -72,7 +72,7 @@
         <!-- Carousel End -->
         
         
-        <!-- Introduction -Gabi- -->
+        <!-- Introduction -->
         <div class="booking">
             <div class="container">
                 <div class="row align-items-center">
@@ -131,19 +131,30 @@
                                 <p>
                                     Vous avez le choix entre plusieurs formules tarifaires très ajustées, et le service est d’une grande souplesse. Vous pouvez vous faire livrer durant quelques jours seulement, après une sortie d’hôpital par exemple, une ou plusieurs fois par semaine, etc.
                                 </p>
-                                <a class="btn custom-btn btn-1" href="">Découvrez nos menus</a>
                             </div>
                     </div>
                 </div>
             </div>
         </div>
         
+        <!-- Menu Carousel -->
+        <div class="menu-carousel-container">
+            <div class="menu-carousel">
+                <div class="menu-carousel-inner" id="menu-carouselInner">
+                    <!-- Cards will be injected here by JavaScript -->
+                </div>
+            </div>
+            <div class="menu-buttons">
+                <img src="../img/icones/precedent.svg" class="menu-button menu-bLeft" id="prevButton" onclick="prevCard()">
+                <img src="../img/icones/suivant.svg" class="menu-button menu-bRight" id="nextButton" onclick="nextCard()">
+            </div>
+        </div>
                   
         <!-- Food Start -->
-        <div class="food">
+        <div class="booking">
             <div class="container">
                 <div class="section-header">
-                    <h2>... Et adaptés à votre état de santé</h2>
+                    <h2 class="align-right">... Et adaptés à votre état de santé</h2>
                 </div>
                 <div class="row align-items-center">
                         <div class="about-content">
@@ -211,8 +222,7 @@
                 </div>
             </div>
         </div>
-        <!-- Fin -->
-              
+
         <!-- Footer Start -->
         <?php include 'php/footer.php'; ?>
         <!-- Footer End -->
@@ -221,6 +231,7 @@
 
         <!-- Body Librairy -->
         <?php include 'php/bodyLib.php'; ?>
+        <script src="../js/menuCarousel.js"></script>
         <!-- Body Librairy End  -->
 
     </body>
