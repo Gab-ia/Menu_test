@@ -30,232 +30,60 @@
         </div>
         <!-- Page Header End -->
         
-        <!-- Titre de page- Modalités pratiques -Gabi- -->
+        <!-- Titre de page- Modalités pratiques -->
         <div class="equipe_description section-header booking"> 
             <h2 class="text-align">Nos menus livrés à domicile</h2>
             <p class="text-align">Marc, notre chef issu de la restauration traditionnelle, concocte dans notre laboratoire de Nomexy une cuisine familiale, savoureuse et variée.
             </p>
         </div>   
-    <!--End -->
+    
+        <!-- images en 324 x 200 ça peut être pas mal-->
+        <h2 class="text-align">Une cuisine gourmande et de qualité</h2>
 
-        <!-- Food Start -->
-        <div class="food mt-0">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-burger"></i>
-                            <h2>Burgers</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-snack"></i>
-                            <h2>Snacks</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="food-item">
-                            <i class="flaticon-cocktail"></i>
-                            <h2>Beverages</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasel nec pretium mi. Curabit facilis ornare velit non vulputa. Aliquam metus tortor auctor quis sem. 
-                            </p>
-                            <a href="">View Menu</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="menuRangee container">
+            
+            <p class="col-md-3 text-justify padding">Avec toute l’équipe dédiée au portage à domicile, nous élaborons des menus équilibrés, qui respectent à la fois vos habitudes alimentaires et les apports nutritionnels recommandés.</p>
+            
+            <img src="" class="col-md-3 padding">
+            
+            <p class="col-md-3 text-justify padding">Mais la bonne cuisine, c’est aussi une source de plaisir et de bien-être, essentielle pour continuer à se sentir bien jour après jour ! Tous nos plats, réalisés à partir d’ingrédients simples et de qualité, sont conçus pour vous faire envie et stimuler votre appétit.</p>
+            
+            <img src="" class="col-md-3 padding">
+                        
         </div>
-        <!-- Food End -->
+
+        <div class="menuRangee container">    
         
+            <img src="" class="col-md-3 padding">
 
-        <!-- Menu Start -->
-        <div class="menu">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Food Menu</p>
-                    <h2>Delicious Food Menu</h2>
-                </div>
-                <div class="menu-tab">
-                    <ul class="nav nav-pills justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="pill" href="#burgers">Burgers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#snacks">Snacks</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#beverages">Beverages</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="burgers" class="container tab-pane active">
-                            <div class="row">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-burger.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Mini cheese Burger</span> <strong>$9.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-burger.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Double size burger</span> <strong>$11.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-burger.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Bacon, EGG and Cheese</span> <strong>$13.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-burger.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Pulled porx Burger</span> <strong>$18.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-burger.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Fried chicken Burger</span> <strong>$22.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 d-none d-lg-block">
-                                    <img src="img/menu-burger-img.jpg" alt="Image">
-                                </div>
-                            </div>
-                        </div>
-                        <div id="snacks" class="container tab-pane fade">
-                            <div class="row">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-snack.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Corn Tikki - Spicy fried Aloo</span> <strong>$15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-snack.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Bread besan Toast</span> <strong>$35.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-snack.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Healthy soya nugget snacks</span> <strong>$20.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-snack.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Tandoori Soya Chunks</span> <strong>$30.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 d-none d-lg-block">
-                                    <img src="img/menu-snack-img.jpg" alt="Image">
-                                </div>
-                            </div>
-                        </div>
-                        <div id="beverages" class="container tab-pane fade">
-                            <div class="row">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Single Cup Brew</span> <strong>$7.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Caffe Americano</span> <strong>$9.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Caramel Macchiato</span> <strong>$15.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Standard black coffee</span> <strong>$8.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                    <div class="menu-item">
-                                        <div class="menu-img">
-                                            <img src="img/menu-beverage.jpg" alt="Image">
-                                        </div>
-                                        <div class="menu-text">
-                                            <h3><span>Standard black coffee</span> <strong>$12.00</strong></h3>
-                                            <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 d-none d-lg-block">
-                                    <img src="img/menu-beverage-img.jpg" alt="Image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <p class="col-md-3 text-justify padding">Nous utilisons des produits frais dès que c’est possible et nous varions les plats en fonction de la saison. Nous nous interdisons également le recours aux viandes saumurées, une technique trop souvent employée en restauration collective pour attendrir la viande et augmenter son volume.  </p>
+        
+            <img src="" class="col-md-3 padding">
+
+            <p class="col-md-3 text-justify padding">Tous nos menus sont très faciles à réchauffer et à manger. Si besoin, nous adaptons les menus et les textures à votre état de santé (plats sans chou, sans fibres, hachés, moulinés, etc.).</p>
+                
         </div>
-        <!-- Menu End -->
+
+        <!-- -->
+            <h2 class="text-align">3 Formules tarifaires et une bonne dose de souplesse </h2>
+            <p>Avec notre service de portage à domicile, oubliez les formules d’abonnement contraignantes ! Suivant votre budget et votre appétit, vous avez le choix entre </p>
+
+        <!-- tableau ? problèmes dans le texte je pense.... formules pas claires-->
+        <p>Un plat du jour avec une viande ou un poisson, des légumes et des féculents.</p>
+        <p>Une entrée et un plat.</p>
+        <p>Un plat et un dessert.</p>
+        <p>Chaque semaine, vous pouvez retrouver le détail des menus proposés sur la page Facebook de Menu Portage.</p>
+        <p>Nous nous adaptons rapidement à vos besoins : il suffit de nous prévenir 48 h à l’avance en cas de changement.
+        À partir de 4 repas livrés par semaine, vous bénéficiez d’une réduction supplémentaire.</p>
+
+        <!-- -->
+        <h2 class="text-align">Les suppléments</h2>
+        <p>Pour compléter votre déjeuner ou servir de base à votre dîner, nous pouvons ajouter à votre repas des suppléments au choix : une portion de fromage, la soupe du jour, une demi-baguette.</p>
+        
+        <!-- Menus affichés  -->
+
+
+
 
 
         <!-- Footer Start -->

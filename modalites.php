@@ -70,7 +70,7 @@
         </div>
         <!-- -->
       
-        <!-- triple bloc d'infos -Gabi- -->
+        <!-- triple bloc d'infos -->
         
         <div class="tripleBloc paddingTop">
             <div class="aboutBloc col-lg-4">

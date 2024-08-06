@@ -133,8 +133,7 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    display: flex;
-    
+    display: flex;   
 }
 
 .navbar.nav-sticky {
@@ -425,7 +424,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(41, 151, 65, 0.68), rgba(0, 0, 0, 0.04)), url();
+    background: linear-gradient(rgba(240, 162, 60, 0.603), rgba(0, 0, 0, 0.04)), url(../img/templates/header.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -481,7 +480,7 @@ a:focus {
 /*******************************/
 .section-header {
     position: relative;
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
 }
 
@@ -578,266 +577,15 @@ a:focus {
 /**** Menu Carousel *****/
 /***********************/
 
-.menu-carousel-container {
+.menuRangee {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .menu-carousel {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-    justify-content: start;
-  }
-  
-  .menu-carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  
-  .menu-card {
-    min-width: 500px;
-    max-width: 500px;
-    min-height: 500px;
-    max-height: 500px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 40px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 0 75px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../img/icones/menu_carousel.svg);
-  }
-  
-  .menu-card h3 {
-    font-family: satisfy ;
-    font-size: 25px;
-    color: #d66826ff ;
-    margin-top: 10px;
-    margin-bottom: 0px;
-  }
-  
-  .menu-plat {
-    color:#299740ff;
-    font-size: 20px;
-    margin: 0px;
-  }
-  
-  .menu-aliment {
-    color: #2d698cff;
-    font-size: 20px;
-    text-align: center;
-    margin: 0px;
-  }
-  
-  .menu-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 16px;
-    width: 100%;
-    max-width: 300px;
-  }
-  .menu-button {
-    padding: 10px 10px;
-    color: #d66826ff;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    position:relative;
-    top:-250px;
-  }
-  .menu-bLeft {
-    left: -225px;
-  }
-  .menu-bRight {
-    right:-225px;
-  }
-  
-/**************************/
-/******* Modalités *******/
-/************************/
-.about .about-content {
-    position: relative;
-}
-
-.about .about-text p {
-    font-size: 16px;
-}
-
-.about .about-text a.btn {
-    position: relative;
-    margin-top: 15px;
-}
-
-/**************************/
-/*** Aides Financières ***/
-/************************/
-.Aide1 {
-    margin: 0 20px;
-    padding: 20px 0;
-}
-
-.Aide2 {
-    margin: 0 20px;
-}
-
-.Aide3 {
-    margin: 0 20px;
-    display:flex;
     flex-direction: row;
-}
-
-.Aide31 {
-    padding: 30px;
-}
-
-.Aide4 {
-    margin: 0 20px;
-    display:flex;
-    flex-direction: row;  
-}
-
-.Aide41 {
-    padding: 30px;
-}
-
-.AideSoustitre {
-    color: #2d698cff;
-}
-
-
-/*******************************/
-/*********** Menu CSS **********/
-/*******************************/
-.menu {
-    position: relative;
-    padding: 45px 0 15px 0;
-}
-
-.menu .menu-tab {
-    position: relative;
-}
-
-.menu .menu-tab img {
-    max-width: 100%;
-    border-radius: 15px;
-}
-
-.menu .menu-tab .nav.nav-pills .nav-link {
-    color: #ffffff;
-    background: #d66826ff;
-    border-radius: 5px;
-    margin: 0 5px;
-}
-
-.menu .menu-tab .nav.nav-pills .nav-link:hover,
-.menu .menu-tab .nav.nav-pills .nav-link.active {
-    color: #ffffff;
-    background: #2d698cff;
-}
-
-.menu .menu-tab .tab-content {
-    padding: 30px 0 0 0;
-    background: transparent;
-}
-
-.menu .menu-tab .tab-content .container {
-    padding: 0;
-}
-
-.menu .menu-item {
-    position: relative;
-    margin-bottom: 30px;
-    display: flex;
     align-items: center;
 }
 
-.menu .menu-img {
-    width: 80px;
-    margin-right: 20px;
+.padding {
+    padding: 15px;
 }
-
-.menu .menu-img img {
-    width: 100%;
-    border-radius: 100px;
-}
-
-.menu .menu-text {
-    width: calc(100% - 100px);
-}
-
-.menu .menu-text h3 {
-    position: relative;
-    display: block;
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.menu .menu-text h3::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 0;
-    top: 13px;
-    left: 0;
-    border-top: 2px dotted #cccccc;
-    z-index: -1;
-}
-
-.menu .menu-text h3 span {
-    display: inline-block;
-    float: left;
-    padding-right: 5px;
-    background: #ffffff;
-}
-
-.menu .menu-text h3 strong {
-    display: inline-block;
-    float: right;
-    padding-left: 5px;
-    color: #d66826ff;
-    background: #ffffff;
-}
-
-.menu .menu-text p {
-    position: relative;
-    margin: 5px 0 0 0;
-    float: left;
-    display: block;
-}
-
-@media(max-width: 575.98px) {
-    .menu .menu-text p,
-    .menu .menu-text h3,
-    .menu .menu-text h3 span,
-    .menu .menu-text h3 strong {
-        display: block;
-        float: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .menu .menu-text h3 {
-        font-size: 18px;
-        margin-bottom: 0;
-    }
-    
-    .menu .menu-text h3 span {
-        margin-bottom: 3px;
-    }
-    
-    .menu .menu-text h3::after {
-        display: none;
-    }
-}
-
 
 /**************************/
 /******** L'équipe *******/
