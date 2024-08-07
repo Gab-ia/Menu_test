@@ -8,8 +8,9 @@
         <meta content="Free Website Template" name="description">
 
         <!-- Head Librairy -->
-        <?php include 'php/headLib.php'; ?>
-        <!-- Head Librairy End -->
+        <?php include 'php/headLib.php' ?>
+        <link href="../css/style.css" rel="stylesheet">
+
     </head>
 
     <body>
@@ -44,21 +45,21 @@
             
             <p class="col-md-3 text-justify padding">Avec toute l’équipe dédiée au portage à domicile, nous élaborons des menus équilibrés, qui respectent à la fois vos habitudes alimentaires et les apports nutritionnels recommandés.</p>
             
-            <img src="" class="col-md-3 padding">
+            <img src="../img/photos triées/FB/prepa1.svg" class="col-md-3 padding radius">
             
             <p class="col-md-3 text-justify padding">Mais la bonne cuisine, c’est aussi une source de plaisir et de bien-être, essentielle pour continuer à se sentir bien jour après jour ! Tous nos plats, réalisés à partir d’ingrédients simples et de qualité, sont conçus pour vous faire envie et stimuler votre appétit.</p>
             
-            <img src="" class="col-md-3 padding">
+            <img src="../img/photos triées/FB/prepa2.svg" class="col-md-3 padding radius">
                         
         </div>
 
         <div class="menuRangee container">    
         
-            <img src="" class="col-md-3 padding">
+            <img src="../img/photos triées/FB/prepa3.svg" class="col-md-3 padding radius">
 
             <p class="col-md-3 text-justify padding">Nous utilisons des produits frais dès que c’est possible et nous varions les plats en fonction de la saison. Nous nous interdisons également le recours aux viandes saumurées, une technique trop souvent employée en restauration collective pour attendrir la viande et augmenter son volume.  </p>
         
-            <img src="" class="col-md-3 padding">
+            <img src="../img/photos triées/FB/entree-plat-dessert1.svg" class="col-md-3 padding radius">
 
             <p class="col-md-3 text-justify padding">Tous nos menus sont très faciles à réchauffer et à manger. Si besoin, nous adaptons les menus et les textures à votre état de santé (plats sans chou, sans fibres, hachés, moulinés, etc.).</p>
                 

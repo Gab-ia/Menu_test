@@ -31,6 +31,10 @@ h6 {
     align-items: center;
 }
 
+.radius {
+    border-radius: 30px;
+}
+
 .align-right {
     text-align: right;
 }
