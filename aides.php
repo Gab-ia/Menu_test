@@ -113,7 +113,6 @@
 
         <!-- Body Librairy -->
         <?php include 'php/bodyLib.php'; ?>
-        <!-- Body Librairy End  -->
 
     </body>
 </html>

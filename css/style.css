@@ -31,10 +31,6 @@ h6 {
     align-items: center;
 }
 
-.radius {
-    border-radius: 30px;
-}
-
 .align-right {
     text-align: right;
 }
@@ -589,6 +585,131 @@ a:focus {
 
 .padding {
     padding: 15px;
+}
+
+.menu-carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 50px 30px 30px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.menu-carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: start;
+  }
+
+  .menu-carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .menu-card {
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 75px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/icones/menu_carousel.svg);
+  }
+
+  .menu-card h3 {
+    font-family: satisfy ;
+    font-size: 25px;
+    color: #d66826ff ;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .menu-plat {
+    color:#299740ff;
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .menu-aliment {
+    color: #2d698cff;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+    left: 0;
+    background: #2d698cff;
+}
+
+.menu-button {
+    padding: 10px 10px;
+    color: #d66826ff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position:relative;
+    top:-250px;
+  }
+  .menu-bLeft {
+    left: -225px;
+  }
+  .menu-bRight {
+    right:-225px;
+  }
+
+
+/**************************/
+/*** Aides Financières ***/
+/************************/
+.Aide1 {
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.Aide2 {
+    margin: 0 20px;
+}
+
+.Aide3 {
+    margin: 0 20px;
+    display:flex;
+    flex-direction: row;
+}
+
+.Aide31 {
+    padding: 30px;
+}
+
+.Aide4 {
+    margin: 0 20px;
+    display:flex;
+    flex-direction: row;  
+}
+
+.Aide41 {
+    padding: 30px;
+}
+
+.AideSoustitre {
+    color: #2d698cff;
 }
 
 /**************************/

@@ -232,7 +232,6 @@
         <!-- Body Librairy -->
         <?php include 'php/bodyLib.php'; ?>
         <script src="../js/menuCarousel.js"></script>
-        <!-- Body Librairy End  -->
 
     </body>
 </html>
