@@ -48,10 +48,6 @@ h6 {
     font-size: 25px;
 }
 
-.green {
-    color: #299740ff;
-}
-
 a {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -125,6 +121,45 @@ a:focus {
     margin-left: 0;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.margin-right {
+    margin-right :20px;
+}
+
+.margin-left-right {
+    margin : 0 20px;
+}
+
+.margin-top-bottom {
+    margin: 20px 0;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.blue {
+    color: #2d698cff;
+}
+
+.green {
+    color: #299740ff;
+}
+
+.orange {
+    color: #d66826ff;
+}
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -571,10 +606,9 @@ a:focus {
     align-items: center;
 }
 
-
-
 /*************************/
-/**** Menu Carousel *****/
+/****** Page Menu
+              "../img/templates/menu_du_jour.svg" *******/
 /***********************/
 
 .menuRangee {
@@ -584,36 +618,62 @@ a:focus {
 }
 
 .padding {
-    padding: 15px;
+    padding: 20px; 
 }
 
+.radius {
+    border-radius: 15px;
+}
+
+.menuDuJour {
+    position: relative;
+    
+}
+
+.menuRang {
+    display: flex;
+    flex-direction : row;
+    justify-content: space-around;
+    max-height: 200px;
+}
+
+.menuRang2 {
+    padding: 0px
+}
+
+.menuImgSize {
+    height: 25%;
+}
+
+.menuTitle {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: dancing script;
+}
+
+/*************************/
+/**** Menu Carousel *****/
+/***********************/
 .menu-carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 30px;
-    padding: 50px 30px 30px;
-    text-align: center;
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
-    transition: .3s;
-}
-
-.menu-carousel {
+  }
+  
+  .menu-carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
     justify-content: start;
   }
-
+  
   .menu-carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
   }
-
+  
   .menu-card {
     min-width: 500px;
     max-width: 500px;
@@ -629,37 +689,39 @@ a:focus {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    background-image: url(../img/icones/menu_carousel.svg);
+    background-image: url(../img/templates/menu_carousel.svg);
   }
-
+  
   .menu-card h3 {
     font-family: satisfy ;
-    font-size: 25px;
+    font-size: 20px;
     color: #d66826ff ;
     margin-top: 10px;
     margin-bottom: 0px;
   }
-
+  
   .menu-plat {
     color:#299740ff;
     font-size: 20px;
     margin: 0px;
+  
   }
-
+  
   .menu-aliment {
     color: #2d698cff;
-}
-
-.menu-buttons {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  .menu-buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
     width: 100%;
-    left: 0;
-    background: #2d698cff;
-}
-
-.menu-button {
+    max-width: 300px;
+  }
+  .menu-button {
     padding: 10px 10px;
     color: #d66826ff;
     border: none;
@@ -674,8 +736,7 @@ a:focus {
   .menu-bRight {
     right:-225px;
   }
-
-
+  
 /**************************/
 /*** Aides Financières ***/
 /************************/

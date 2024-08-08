@@ -168,25 +168,25 @@
                             <div class="icon_menu">
                                 <div class="col-lg-4 icontxt">
                                     <img src="img/icones/viande.svg">
-                                    <p>Sans viande</p>
+                                    <p class="blue">Sans viande</p>
                                 </div>
                                 <div class="col-lg-4 icontxt">
                                     <img src="img/icones/poisson.svg">
-                                    <p>Sans poisson</p>
+                                    <p class="blue">Sans poisson</p>
                                 </div>
                                 <div class="col-lg-4 icontxt">
                                     <img src="img/icones/haricot.svg">
-                                    <p>Sans fibre</p>
+                                    <p class="blue">Sans fibre</p>
                                 </div>
                             </div>   
                             <div class="icon_menu">
                                 <div class="col-lg-6 icontxt">
                                     <img src="img/icones/chou.svg">
-                                    <p>Sans chou ni épinard</p>
+                                    <p class="blue">Sans chou ni épinard</p>
                                 </div>
                                 <div class="col-lg-6 icontxt">
                                     <img src="img/icones/repas.svg">
-                                    <p>Avec des textures adaptées: hachés ou moulinés</p>
+                                    <p class="blue">Avec des textures adaptées: hachés ou moulinés</p>
                                 </div>
                             </div>
                         </div>
