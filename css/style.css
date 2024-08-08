@@ -962,6 +962,37 @@ font-size: 50px;
     font-weight: bold;
 }
 
+/********************************/
+/********** formulaire *********/
+/******************************/
+
+output {
+    font-weight: 600;
+    text-align: center;
+    
+  }
+
+.formulaire {
+    display: flex;
+    flex-direction: row;
+}
+
+.formGauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.formDroite {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/

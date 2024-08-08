@@ -13,6 +13,7 @@
                 <a href="aides.php" class="nav-item nav-link">Aides Financières</a>
                 <a href="equipe.php" class="nav-item nav-link">L'équipe</a>
                 <a href="menu.php" class="nav-item nav-link">Menu</a>
+                <a href="formulaire.php" class="nav-item nav-link">Réserver</a>
                 <a href="" id="contactLink" class="nav-item nav-link">Contact</a>
             </div>
         </div>

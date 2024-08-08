@@ -31,8 +31,8 @@
                                 Du lundi au samedi, la fine équipe de Croustillance cuisine et livre de bons petits plats à domicile, de la région de Charmes jusqu’à Chavelot.
                             </p>
                             <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">Voir le Menu</a>
-                                <a class="btn custom-btn" href="">Réserver</a>
+                                <a class="btn custom-btn" href="menu.php">Voir le Menu</a>
+                                <a class="btn custom-btn" href="formulaire.php">Réserver</a>
                             </div>
                         </div>
                     </div>
