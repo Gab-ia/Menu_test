@@ -28,9 +28,9 @@
             </div>
 
         <!-- Formulaire -->
-        <form class="formulaire">
+        <form class="formulaire container">
         
-            <div class="formGauche">
+            <div class="col-md-6 formGauche padding blue">
                 <div class="question">
                     <label for="Nom"> Nom</label>
                     <input type="text" id="Nom" name="Nom" placeholder="Votre Nom" required="">
@@ -49,11 +49,12 @@
                 </div>
             </div>
         
-            <div class="formDroite">
+            <div class="col-md-6 formDroite padding green">
             
                 <div class="question">
                     <label for="villes">Adresse de livraison : </label>
                         <select name="villes" id="villes">
+                            <option value="" disabled selected>Choisissez un lieu</option>
                             <option value="Chamagne">Chamagne</option>
                             <option value="Charmes">Charmes</option>
                             <option value="Chatel-sur-Moselle">Chatel-sur-Moselle</option>
@@ -64,26 +65,35 @@
                             <option value="Girmont">Girmont</option>
                             <option value="Hadigny-les-Verrières">Hadigny-les-Verrières</option>
                             <option value="Igney">Igney</option>
+                            <option value="la Verrerie de Portieux">La Verrerie de Portieux</option>
                             <option value="Langley">Langley</option>
                             <option value="Moriville">Moriville</option>
                             <option value="Nomexy">Nomexy</option>
                             <option value="Pallegney">Pallegney</option>
                             <option value="Portieux">Portieux</option>
-                            <option value="la Verrerie de Portieux">la Verrerie de Portieux</option>
                             <option value="Socourt">Socourt</option>
                             <option value="Vaxoncourt">Vaxoncourt</option>
                             <option value="Vincey">Vincey</option>
                             <option value="Autre">Autre</option>
                         </select><br>
                 </div>
-            
-                <range-slider min=1 max=14 step=1 value="2" id="rangSlider" class="question"></range-slider>
+
+                <div>
+                    <label for="repas">Nombre de repas</label>
+                    <range-slider min=1 max=14 step=1 value="2" id="rangSlider" class="question slider"></range-slider>
+                </div>
 
                 <div class="question">
                     <label for="message">Une question, un message, une demande particuliaire, . . .</label>
                     <textarea id="message" name="message" rows="5" placeholder="Bonjour, " required=""></textarea>
                 </div>
 
+            </div>
+
+            <div class="formDivBtn orange">
+                <button type="submit" class="orange formBtn" >
+                    <img src="../img/icones/formBtn.svg">
+                </button>
             </div>
 
         </form>

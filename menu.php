@@ -31,49 +31,16 @@
         </div>
         <!-- Page Header End -->
         
-        <!-- Titre de page- Modalités pratiques -->
+        <!-- Titre de page -->
         <div class="equipe_description section-header booking"> 
             <h2 class="text-align">Nos menus livrés à domicile</h2>
             <p class="text-align">Marc, notre chef issu de la restauration traditionnelle, concocte dans notre laboratoire de Nomexy une cuisine familiale, savoureuse et variée.
             </p>
         </div>   
     
-        <!-- images en 324 x 200 ça peut être pas mal-->
-        
-        <div class="margin-bottom">
-            <h2 class="text-align margin-bottom">Une cuisine gourmande et de qualité</h2>
-
-            <div class="menuRangee container">
-            
-                <p class="col-md-3 text-justify padding grayBackground radius margin-right">Avec toute l’équipe dédiée au portage à domicile, nous élaborons des menus équilibrés, qui respectent à la fois vos habitudes alimentaires et les apports nutritionnels recommandés.</p>
-            
-                <img src="../img/photos triées/FB/prepa1.svg" class="col-md-3 radius">
-            
-                <p class="col-md-3 text-justify padding grayBackground radius margin-left-right">Mais la bonne cuisine, c’est aussi une source de plaisir et de bien-être, essentielle pour continuer à se sentir bien jour après jour ! Tous nos plats, réalisés à partir d’ingrédients simples et de qualité, sont conçus pour vous faire envie et stimuler votre appétit.</p>
-            
-                <img src="../img/photos triées/FB/prepa2.svg" class="col-md-3 radius">
-                        
-            </div>
-
-            <div class="menuRangee container">    
-        
-                <img src="../img/photos triées/FB/prepa3.svg" class="col-md-3 radius">
-
-                <p class="col-md-3 text-justify padding grayBackground radius margin-left-right">Nous utilisons des produits frais dès que c’est possible et nous varions les plats en fonction de la saison. Nous nous interdisons également le recours aux viandes saumurées, une technique trop souvent employée en restauration collective pour attendrir la viande et augmenter son volume.  </p>
-        
-                <img src="../img/photos triées/FB/entree-plat-dessert1.svg" class="col-md-3 radius">
-
-                <p class="col-md-3 text-justify padding grayBackground radius margin-left">Tous nos menus sont très faciles à réchauffer et à manger. Si besoin, nous adaptons les menus et les textures à votre état de santé (plats sans chou, sans fibres, hachés, moulinés, etc.).</p>
-                
-            </div>
-
-        </div>
-
         <!-- -->
-            <h2 class="text-align margin-top">3 Formules tarifaires et une bonne dose de souplesse </h2>
+        <h2 class="text-align margin-top">3 Formules tarifaires et une bonne dose de souplesse </h2>
             <p class="text-align">Avec notre service de portage à domicile, oubliez les formules d’abonnement contraignantes ! Suivant votre budget et votre appétit, vous avez le choix entre: </p>
-
-        <!-- tableau ? problèmes dans le texte je pense.... formules pas claires-->
 
         <div class="menuRang margin-top">
             
@@ -115,7 +82,7 @@
 
         </div>
 
-        <h2 class="text-align menuTitle green">Les suppléments</h2>
+        <h2 class="text-align menuTitle green margin-top">Les suppléments</h2>
 
             <div class="text-align margin-bottom">
                 <img src="../img/icones/fromage.svg" class="menuImgSize">
@@ -129,14 +96,45 @@
         <p class="text-align italic">Nous nous adaptons rapidement à vos besoins : il suffit de nous prévenir 48 h à l’avance en cas de changement.
         À partir de 4 repas livrés par semaine, vous bénéficiez d’une réduction supplémentaire.</p>
 
+        <!-- Menus affichés  -->
+        
+        <p class="text-align margin" style= "font-size: xx-large;color: red;"><strong>MENUS A AFFICHER ICI</strong></p>
+        
+        <!-- -->
+        
+        <div class="margin-bottom">
+            <h2 class="text-align margin-bottom">Une cuisine gourmande et de qualité</h2>
+
+            <div class="menuRangee container">
+            
+                <p class="col-md-3 text-justify padding grayBackground radius margin-right">Avec toute l’équipe dédiée au portage à domicile, nous élaborons des menus équilibrés, qui respectent à la fois vos habitudes alimentaires et les apports nutritionnels recommandés.</p>
+            
+                <img src="../img/photos triées/FB/prepa1.svg" class="col-md-3 radius">
+            
+                <p class="col-md-3 text-justify padding grayBackground radius margin-left-right">Mais la bonne cuisine, c’est aussi une source de plaisir et de bien-être, essentielle pour continuer à se sentir bien jour après jour ! Tous nos plats, réalisés à partir d’ingrédients simples et de qualité, sont conçus pour vous faire envie et stimuler votre appétit.</p>
+            
+                <img src="../img/photos triées/FB/prepa2.svg" class="col-md-3 radius">
+                        
+            </div>
+
+            <div class="menuRangee container">    
+        
+                <img src="../img/photos triées/FB/prepa3.svg" class="col-md-3 radius">
+
+                <p class="col-md-3 text-justify padding grayBackground radius margin-left-right">Nous utilisons des produits frais dès que c’est possible et nous varions les plats en fonction de la saison. Nous nous interdisons également le recours aux viandes saumurées, une technique trop souvent employée en restauration collective pour attendrir la viande et augmenter son volume.  </p>
+        
+                <img src="../img/photos triées/FB/entree-plat-dessert1.svg" class="col-md-3 radius">
+
+                <p class="col-md-3 text-justify padding grayBackground radius margin-left">Tous nos menus sont très faciles à réchauffer et à manger. Si besoin, nous adaptons les menus et les textures à votre état de santé (plats sans chou, sans fibres, hachés, moulinés, etc.).</p>
+                
+            </div>
+
+        </div>
+
+        
+
         <!-- -->
                 
-        <!-- Menus affichés  -->
-
-
-
-
-
         <!-- Footer Start -->
         <?php include 'php/footer.php'; ?>
         <!-- Footer End -->

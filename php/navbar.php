@@ -7,7 +7,7 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto">
+            <div class="navbar-nav ml-auto navbarFlex">
                 <a href="index.php" class="nav-item nav-link">Accueil</a>
                 <a href="modalites.php" class="nav-item nav-link active">Modalités Pratiques</a>
                 <a href="aides.php" class="nav-item nav-link">Aides Financières</a>
@@ -15,6 +15,7 @@
                 <a href="menu.php" class="nav-item nav-link">Menu</a>
                 <a href="formulaire.php" class="nav-item nav-link">Réserver</a>
                 <a href="" id="contactLink" class="nav-item nav-link">Contact</a>
+                <div id="animCocotte" class ="cocotte"></div>
             </div>
         </div>
 

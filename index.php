@@ -81,7 +81,7 @@
                             <div class="section-header">
                             <h2>De bons petits plats de qualité traiteur</h2>
                             </div>
-                            <div class="about-text">
+                            <div class="about-text text-justify">
                                 <p>
                                     Vous n’avez pas le cœur à cuisiner pour vous tout seul ? Votre conjoint qui prépare habituellement les repas est absent pour quelques jours, parti en maison de retraite ou en EHPAD ?
                                 </p>

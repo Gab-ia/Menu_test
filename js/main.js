@@ -135,3 +135,10 @@
 
 })(jQuery);
 
+var animation = lottie.loadAnimation({
+    container: document.getElementById('animCocotte'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: '../img/icones/cocotte.json'
+});

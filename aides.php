@@ -37,13 +37,13 @@
             </p>
         </div>   
 
-        <div class="Aide2">
+        <div class="Aide2 margin">
             <h2>La facturation des repas livrés à domicile</h2>
-            <p class="text-justify">
+            <p class="text-justify padding30">
                 Tous les repas livrés à domicile sont <b>facturés en une seule fois en fin de mois.</b> La facture peut être remise en main propre ou envoyée par mail ou par courrier postal au destinataire de votre choix.<br>
                 Nous transmettons également sur simple demande une copie de la facture à tout organisme ou institution prenant en charge une partie des repas. <br>
                 Pour le paiement, vous avez le choix entre plusieurs solutions :
-                <ul>
+                <ul class="margin">
                 <li>Chèque.</li>
                 <li>Virement.</li>
                 <li>Espèces. Vous pouvez remettre directement votre paiement à nos livreuses, en qui nous avons toute confiance.</li>
@@ -51,9 +51,9 @@
             </p>
         </div>
 
-        <h2 class="Aide1">Les aides possibles</h2>
+        <h2 class="Aide1 margin">Les aides possibles</h2>
 
-        <div class="Aide3">
+        <div class="Aide3 margin">
             
             <div class="Aide31 col-4">
                 <h3 class="AideSoustitre">Comment obtenir un devis pour le portage des repas ?</h3>
@@ -81,7 +81,7 @@
 
         </div>
 
-        <div class="Aide4">
+        <div class="Aide4 margin">
 
             <div class="Aide41 col-8">
                 <h3 class="AideSoustitre">L’Allocation Personnalisée d’Autonomie (APA)</h3>

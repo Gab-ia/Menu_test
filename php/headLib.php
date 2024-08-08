@@ -17,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='https://unpkg.com/range-slider-element@latest/dist/styles.css'>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
 
 <!-- Template Stylesheet -->
 <link href="../css/style.css" rel="stylesheet">

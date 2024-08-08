@@ -125,6 +125,10 @@ a:focus {
     font-style: italic;
 }
 
+.margin {
+    margin: 20px;
+}
+
 .margin-bottom {
     margin-bottom: 20px;
 }
@@ -149,6 +153,10 @@ a:focus {
     margin-top: 40px;
 }
 
+.padding30 {
+    padding: 30px;
+}
+
 .blue {
     color: #2d698cff;
 }
@@ -168,7 +176,13 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    display: flex;   
+    display: flex;
+    align-items: center;   
+}
+
+.navbarFlex {
+    display: flex;
+    align-items: center;
 }
 
 .navbar.nav-sticky {
@@ -292,6 +306,11 @@ a:focus {
         margin-top: 15px;
     }
     
+    .navbar-nav {
+        display: flex;
+        align-items: center !important;
+    }
+
     .navbar a.nav-link {
         padding: 5px;
     }
@@ -607,8 +626,7 @@ a:focus {
 }
 
 /*************************/
-/****** Page Menu
-              "../img/templates/menu_du_jour.svg" *******/
+/****** Page Menu *******/
 /***********************/
 
 .menuRangee {
@@ -634,7 +652,7 @@ a:focus {
     display: flex;
     flex-direction : row;
     justify-content: space-around;
-    max-height: 200px;
+    align-items: center;
 }
 
 .menuRang2 {
@@ -642,13 +660,20 @@ a:focus {
 }
 
 .menuImgSize {
-    height: 25%;
+    height: 50px;
 }
 
 .menuTitle {
     font-size: 40px;
     font-weight: bold;
     font-family: dancing script;
+}
+
+.cocotte {
+    display: flex;
+    margin: auto;
+    width: 10%;
+    height: auto;
 }
 
 /*************************/
@@ -969,17 +994,21 @@ font-size: 50px;
 output {
     font-weight: 600;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
   }
 
 .formulaire {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .formGauche {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .formDroite {
@@ -990,9 +1019,31 @@ output {
 .question {
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 
+.formDivBtn {
+    display: flex;
+    margin: auto;
+}
+
+.formBtn {
+    background-color: transparent;
+    border:none;
+}
+
+range-slider:before {
+    background: linear-gradient(#d66826ff,#d66826ff) 0/var(--value-percent,0) 100% no-repeat rgba(216, 156, 78, 0.548) !important;
+}
+
+.thumb {
+    background-color: #d66826ff !important;
+    padding: 10px;
+}
+range-slider:focus .thumb {
+    box-shadow: 0 0 0 .3em rgba(194, 136, 60, 0.2)!important;
+}
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
